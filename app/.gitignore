@@ -1,1 +1,86 @@
-/build
+# ==========================
+# Android / Kotlin / Gradle
+# ==========================
+
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+.gradle/
+**/build/
+local.properties
+
+# Gradle caches
+.gradle/
+build/
+**/build/
+!gradle-wrapper.jar
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/shelf/
+
+# Generated files
+captures/
+output.json
+*.apk
+*.ap_
+*.dex
+*.class
+
+# Signing keys
+*.jks
+*.keystore
+**/key.properties
+
+# Logs
+*.log
+
+# Mac OS / Windows
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Firebase / Cloud configs
+# ==========================
+google-services.json
+app/google-services.json
+serviceAccountKey.json
+
+# ==========================
+# Cloudinary Config
+# ==========================
+app/src/main/res/raw/cloudinary_config.json
+
+# ==========================
+# Kotlin / Java specific
+# ==========================
+*.class
+*.jar
+*.war
+*.ear
+*.kotlin_metadata
+
+# ==========================
+# Misc
+# ==========================
+/app/build/
+.gradle/
+**/captures/
+.navigation/
+*.hprof
+*.orig
+
+# ==========================
+# Jetpack Compose Preview
+# ==========================
+*.preview/
